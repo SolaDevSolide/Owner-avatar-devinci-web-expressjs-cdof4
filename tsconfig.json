@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "strict": true,
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true, // Add this line
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "sourceMap": true
+  },
+  "include": ["src/**/*", "tests/**/*"] // Include tests directory
+}
